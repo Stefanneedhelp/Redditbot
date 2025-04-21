@@ -1,11 +1,11 @@
 services:
   - type: web
-    name: reddit-telegram-bot
+    name: reddit-news-bot
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python reddit_bot.py
+    startCommand: python main.py
     envVars:
       - key: BOT_TOKEN
-        value: 7635656272AAHVnxiljBFJevrBXUAIQ-FD687BfPHiJbc
+        sync: false
       - key: CHAT_ID
-        value: 1601980040
+        sync: false
