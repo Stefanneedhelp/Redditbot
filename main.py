@@ -10,24 +10,15 @@ if not BOT_TOKEN or not CHAT_ID:
     raise ValueError("BOT_TOKEN ili CHAT_ID nisu postavljeni!")
 
 # 🔝 Najveći kripto subredditi
-rss_feedovi = [
-    "https://www.reddit.com/r/cryptocurrency/.rss",
-    "https://www.reddit.com/r/Bitcoin/.rss",
-    "https://www.reddit.com/r/Ethereum/.rss",
-    "https://www.reddit.com/r/ethtrader/.rss",
-    "https://www.reddit.com/r/CryptoMarkets/.rss",
-    "https://www.reddit.com/r/ethfinance/.rss",
-    "https://www.reddit.com/r/solana/.rss",
-    "https://www.reddit.com/r/altcoin/.rss",
-    "https://www.reddit.com/r/defi/.rss",
-    "https://www.reddit.com/r/whale_alert/.rss"
-]
+rss_feedovi = ["https://www.needhelp.com/trouver-un-job"
+   ]
 
 # 🧠 Ključne reči koje nas zanimaju
 KLJUCNE_RECI = [
-    "bitcoin", "btc", "ethereum", "eth", "solana", "pump",
-    "dump", "bullish", "bearish", "etf", "hack", "whale", "binance",
-    "regulation", "elon", "sec", "spot"
+    "Montage", "Menuisier", "ébéniste", "Électricité", "Pose carrelage",
+    "Percer", "fixer", "Enduit", "Pose de porte", "portail", "Découpe",
+    "Pose sanitaire", "Pose parquet", "Peinture", "Poser", "Installation", "Reparer", "Réparer", "Revêtements de sol"
+   
 ]
 
 bot = Bot(token=BOT_TOKEN)
